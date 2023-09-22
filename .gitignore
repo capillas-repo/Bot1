@@ -1,0 +1,24 @@
+# Ignorar el directorio node_modules completo
+node_modules/
+
+# Ignorar el archivo session.json
+session.json
+
+# Ignorar todos los archivos en chats, excepto .gitkeep
+chats/*
+!chats/.gitkeep
+
+# Ignorar todos los archivos en media, excepto .gitkeep
+media/*
+!media/.gitkeep
+
+# Ignorar todos los archivos en mediaSend, excepto .gitkeep y nota-de-voz.mp3
+mediaSend/*
+!mediaSend/.gitkeep
+!mediaSend/nota-de-voz.mp3
+
+# Ignorar el archivo .wwebjs_auth
+.wwebjs_auth
+
+# Ignorar todos los archivos en backup
+backup/*

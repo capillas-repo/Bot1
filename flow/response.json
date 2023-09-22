@@ -1,0 +1,433 @@
+{
+    "DEFAULT":{
+        "replyMessage":[
+            {   "mensaje":[
+               
+
+                "Hola  *%primer_nombre%*. 👋🏽" ,
+                "🏛️ Selecciona en nuestro menú el número de la opción que deseas consultar:\n",
+                "1️⃣ Afiliaciones 👨‍👨‍👧‍👦 ",
+                "2️⃣ Donde estamos 📌 ",
+                "3️⃣ Precio 💰 ",
+                "4️⃣ Otro... ",
+                "Es un gusto para nosotros atenderlo."
+                ]
+            }
+        ],
+        "media":null,
+        "trigger":null
+      
+    },
+     
+    "Saludo":{
+        "keywords": [
+                "Hola",
+                "como estas",
+                "Saludos",
+                "Buen día",
+                "Buenos días",
+                "dia",
+                "día",
+                "Buenas tardes",
+                "Buenas noches",
+                "Hola amigo",
+                "Hola amiga",
+                "¡Hola!",
+                "¡Buen día!",
+                "¡Buenos días!",
+                "¡Buenas tardes!",
+                "hola buenos dias",
+                "hola buenos tardes",
+                "hola buenos noches",
+                "que mas",
+                "como estas?",
+                "dias",
+                "Dias",
+                "¡Buenas noches!",
+                "hola",
+                "saludos",
+                "buen día",
+                "buenos días",
+                "buenas tardes",
+                "buenas noches",
+                "hola bot",
+                "hola chatbot",
+                "hola amigo",
+                "hola amiga",
+                "¡hola!",
+                "¡buen día!",
+                "¡buenos días!",
+                "¡buenas tardes!",
+                "¡buenas noches!"
+        ],
+        "replyMessage":[
+            {   "mensaje":[
+               
+
+                "Hola  *%primer_nombre%*. 👋🏽" ,
+                "🏛️ Selecciona en nuestro menú el número de la opción que deseas consultar:\n",
+                "1️⃣ Afiliaciones 👨‍👨‍👧‍👦 ",
+                "2️⃣ Donde estamos 📌 ",
+                "3️⃣ Precio 💰 ",
+                "4️⃣ Otro...\n ",
+
+                "Es un gusto para nosotros atenderlo."
+                ]
+            }
+        ] ,
+        "media":null,
+        "trigger":null
+    },
+
+
+    "5":{
+        "keywords": ["2", "Donde estamos", "donde estan"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos cubrimiento en todo el territorio nacional 🗺️"
+                
+                ]
+            },
+            {
+                "mensaje":["Comunícate con uno de nuestros asesores en la línea nacional gratuita 6013450188, o en un momento te llamaremos."]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "pasoRequerido":"DEFAULT",
+        "goto":"Saludo"   
+    },
+    "50":{
+        "keywords": ["2", "Donde estamos", "donde estan"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos cubrimiento en todo el territorio nacional 🗺️"
+                
+                ]
+            },
+            {
+                "mensaje":["Comunícate con uno de nuestros asesores en la línea nacional gratuita 6013450188, o en un momento te llamaremos."]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "goto":"Saludo"   
+    },
+    "6":{
+        "keywords": ["3", "precio", "costos", "cuanto cuesta","mi afiliacion"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos planes desde 17.000 pesos por mes."
+                ]
+            },
+            {
+                "mensaje":["Comunícate con uno de nuestros asesores en la línea nacional gratuita 6013450188, o en un momento te llamaremos."]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "goto":"Saludo",
+        "pasoRequerido":"Saludo"
+      
+
+    },
+    "60":{
+        "keywords": ["3", "precio", "costos", "cuanto cuesta","mi afiliacion"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos planes desde 17.000 pesos por mes."
+                ]
+            },
+            {
+                "mensaje":["Comunícate con uno de nuestros asesores en la línea nacional gratuita 6013450188, o en un momento te llamaremos."]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "goto":"Saludo"
+    },
+    "7":{
+        "keywords": ["4", "otros"],
+        "replyMessage":[
+            {
+                "mensaje":["Comunícate con nuestras líneas de atención:" ,
+                "018000115233 opc 1",
+                "Línea nacional gratuita desde fijo",
+                "(601)317560 opción 1",
+                "Bogotá",
+                "#523 opción 1",
+                "Para celulares Claro, Movistar y Tigo",
+                "Es un gusto para nosotros atenderlo."
+    
+                  
+                
+                ]
+            },
+            {
+                "mensaje":[""]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "goto":"Saludo",
+        "pasoRequerido":"Saludo"
+      
+
+    },
+    "70":{
+        "keywords": ["4", "otros"],
+        "replyMessage":[
+            {
+                "mensaje":["Comunícate con nuestras líneas de atención:" ,
+                "018000115233 opc 1",
+                "Línea nacional gratuita desde fijo",
+                "(601)317560 opción 1",
+                "Bogotá",
+                "#523 opción 1",
+                "Para celulares Claro, Movistar y Tigo",
+                "Es un gusto para nosotros atenderlo."
+    
+                  
+                
+                ]
+            },
+            {
+                "mensaje":[""]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null,
+        "goto":"Saludo"
+        
+      
+
+    },
+
+
+
+   
+    
+    "1":{
+        "keywords": ["1", "Afiliarme", "Afiliaciones", "Quiero afiliarme","mi afiliacion"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Puedes inscribir hasta 11 beneficiarios, con cubrimiento nacional 🇨🇴 y miembros sin límite de edad."
+                
+                ]
+            },
+            {
+                "mensaje":["¿De qué ciudad nos escribes?"]
+            }
+        
+        ] ,
+        "media":"",
+        "trigger":"a",
+        "pasoRequerido": ["Saludo"]
+     
+    },
+    "10":{
+        "keywords": ["1", "Afiliarme", "Afiliaciones", "Quiero afiliarme","mi afiliacion"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Puedes inscribir hasta 11 beneficiarios, con cubrimiento nacional 🇨🇴 y miembros sin límite de edad."
+                
+                ]
+            },
+            {
+                "mensaje":["¿De qué ciudad nos escribes?"]
+            }
+        
+        ] ,
+        "media":null,
+        "trigger":null
+     
+    },
+
+    "recibenombre":{
+        "keywords": "*",        
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Cuéntanos sobre ti, elije una opción según tu estado civil:" ,
+
+                    "5️⃣ Casado ",
+                    "6️⃣ Union Libre  ",
+                    "7️⃣ Soltero 💰 "
+                ]
+            }
+        ],
+        "media":null,
+        "trigger":null,
+        "pasoRequerido":"1"
+     
+       
+    },
+    "recibenombres":{
+        "keywords": "*",        
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Cuéntanos sobre ti, elije una opción según tu estado civil:" ,
+
+                    "5️⃣ Casado ",
+                    "6️⃣ Union Libre  ",
+                    "7️⃣ Soltero 💰 "
+                ]
+            }
+        ],
+        "media":null,
+        "trigger":null,
+        "pasoRequerido":"10"
+
+       
+    },
+
+
+
+    "Soltero":{
+        "keywords": ["7","Soltero"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" 
+             
+                ]
+            },
+            {
+                "mensaje":[
+                    "Tu plan cubre a tus padres y a tus hermanos.",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombre"
+    },
+
+    "Solteros":{
+        "keywords": ["7","Soltero"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" 
+             
+                ]
+            },
+            {
+                "mensaje":[
+                    "Tu plan cubre a tus padres y a tus hermanos.",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombres"
+    },
+    "libre":{
+        "keywords": ["6", "Union libre"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" 
+             
+                ]
+            },
+            {
+                "mensaje":[
+                    "Tu plan cubre a tu pareja y a tus hijos",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombre"
+    },
+
+    "libres":{
+        "keywords": ["6", "Union libre"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" 
+             
+                ]
+            },
+            {
+                "mensaje":[
+                    "Tu plan cubre a tu pareja y a tus hijos",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombres"
+    },
+
+
+    "Casado":{
+        "keywords": ["5","Casado"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" ,
+                    "Tu plan cubre a tu pareja y a tus hijos",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombre"
+    },
+
+    "Casados":{
+        "keywords": ["5","Casado"],
+        "replyMessage":[
+            {
+                "mensaje":[
+                    "Tenemos para ti el Plan Dorado 🛡️ 👨‍👩‍👦‍👦" ,
+                    "Tu plan cubre a tu pareja y a tus hijos",
+                    "Estos son los beneficios de tu plan:"
+                ]
+            }
+        ] ,
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null,
+        "pasoRequerido":"recibenombres"
+    },
+    
+     
+    "gracias":{
+        "keywords": ["Gracias",
+    "hasta luego",
+    "chao"
+    ],
+        "replyMessage":[
+            {
+                "mensaje":["Fue un placer atenderte"]
+            }
+        ],
+        "media":"https://storage.googleapis.com/artifacts.test-replica-394702.appspot.com/containers/beneficios.jpg",
+        "trigger":null
+       
+       
+    }
+    
+   
+}
